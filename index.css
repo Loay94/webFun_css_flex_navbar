@@ -1,0 +1,63 @@
+/*css for index.html "flex_navbar"*/
+.center-box {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: blue;
+
+}
+.center-item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 184, 181);
+    
+}
+#contener2 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(97, 97, 233);
+    justify-content: space-between;
+}
+#contener3 {
+    width:300px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(97, 97, 233);
+    }
+img {
+
+    background-color: rgb(97, 97, 233);
+    width: 30px;
+    height: 30px;
+    
+}
+h1 {
+
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+ul {
+    width: 80%;
+    display: inline-flex;
+    color:white ;
+    font-size: medium;
+    justify-content: space-between;
+    text-align-last: unset;
+}
+li {
+    color: rgb(97, 97, 233);
+    font-size: medium;
+}
+a {
+    display: inline-flex;
+    color:white ;
+    font-size: medium;
+    text-decoration: none;
+}
+
